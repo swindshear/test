@@ -10,7 +10,7 @@ $(function () {
     });
 
     $(window).scroll(function () {
-        $(".a").each(function (i, ele) {
+        $(".a").each(function(i, ele) {
             if ($(document).scrollTop() >= $(ele).offset().top) {
                 $(".fixedtool li").eq(i).addClass("current").siblings().removeClass();
             }
